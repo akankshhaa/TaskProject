@@ -16,9 +16,9 @@ const Login = ({ handleLogin }) => {
     return (
         <div className='flex h-screen w-screen items-center justify-center'>
             {/* Taskify Title and Logo */}
-            <div className='absolute top-5 left-5 flex items-center space-x-2 sm:space-x-4'>
+            <div className='absolute top-5 left-5 flex items-center space-x-0 sm:space-x-0'>
                 {/* Logo */}
-                <img src={taskifyLogo} alt="Taskify Logo" className="h-16 sm:h-24 w-auto" />
+                <img src={taskifyLogo} alt="Taskify Logo" className="h-20 sm:h-40 w-auto" />
                 {/* Title */}
                 <div className='text-3xl sm:text-5xl font-extrabold text-emerald-600'>
                     Taskify
