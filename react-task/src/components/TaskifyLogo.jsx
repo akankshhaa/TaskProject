@@ -25,7 +25,7 @@ const TaskifyLogo = () => (
         {/* Friendly checkmark with bouncy style */}
         <path d="M110 95 Q115 100 120 105 T140 85" stroke="#059669" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none">
             <animate attributeName="d"
-                dur="2s"
+                dur="1s"
                 repeatCount="indefinite"
                 values="M110 95 Q115 100 120 105 T140 85;
                         M110 93 Q115 98 120 103 T140 83;
